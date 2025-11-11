@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Romantic Album</title>
+    <style>
+        /* Define a soft pink color palette and the overall style */
+        :root {
+            --pink-light: #FFB6C1; /* Very light pink for background */
+            --pink-medium: #da617d; /* Medium pink for accents */
+            --pink-dark: #e84a73; /* Darker pink for text and hearts */
+            --font-family: 'Georgia', serif;
+        }
+
+        body {
+            background-color: var(--pink-light);
+            font-family: var(--font-family);
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* --- Header Styling --- */
+        .album-header {
+            padding: 30px 0;
+        }
+
+        h1 {
+            color: var(--pink-dark);
+            font-size: 2.5em;
+            margin-bottom: 5px;
+            letter-spacing: 2px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: var(--pink-medium);
+            font-size: 1.2em;
+            font-style: italic;
+            font-weight: normal;
+        }
+
+        /* --- Album Grid and Photo Card Styling --- */
+        .photo-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+            padding-top: 20px;
+        }
+
+        .photo-card {
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            width: 300px;
+            transition: transform 0.3s ease-in-out;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .photo-card:hover {
+            transform: scale(1.05) translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .photo-card img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 4px solid var(--pink-medium);
+        }
+
+        .photo-caption {
+            color: #555;
+            font-style: italic;
+            margin-top: 10px;
+            padding: 0 5px;
+        }
+
+        /* --- Heart Decorative Element --- */
+        .heart-stamp {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            color: var(--pink-dark);
+            font-size: 2em;
+            transform: rotate(15deg);
+            opacity: 0.8;
+            pointer-events: none; /* Allows clicks to go through */
+        }
+
+        /* --- Responsive Design --- */
+        @media (max-width: 768px) {
+            .photo-card {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="album-header">
+        <h1> Our Love Story ❤🫂</h1>
+        <h2>Collection Of Our Most Cherished Moments Together</h2>
+    </header>
+
+    <div class="photo-grid">
+
+        <div class="photo-card">
+            <a href="https://ibb.co/XZm3sn8x"><img src="https://i.ibb.co/RpLB0XyT/Whats-App-Image-2025-10-25-at-10-09-01-4036d07b.jpg" alt="Whats-App-Image-2025-10-25-at-10-09-01-4036d07b" border="0"></a>
+
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption"> March 22nd.</p>
+        </div>
+
+                <div class="photo-card">
+            <a href="https://ibb.co/JW7BhV93"><img src="https://i.ibb.co/7xWY9Pqk/Whats-App-Image-2025-11-09-at-16-08-47-26ea5c15.jpg" alt="Whats-App-Image-2025-11-09-at-16-08-47-26ea5c15" border="0"></a>
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption"> April 26th.</p>
+        </div>
+
+                <div class="photo-card">
+            <a href="https://ibb.co/7xt7D5S2"><img src="https://i.ibb.co/35mtbqTB/Whats-App-Image-2025-10-25-at-10-15-22-6d47531b.jpg" alt="Whats-App-Image-2025-10-25-at-10-15-22-6d47531b" border="0"></a>
+
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption"> April 29th.</p>
+        </div>
+
+        <div class="photo-card">
+            <a href="https://ibb.co/TBqVCbZw"><img src="https://i.ibb.co/FbqSP09h/Whats-App-Image-2025-10-25-at-10-07-39-c606e1e7.jpg" alt="Whats-App-Image-2025-10-25-at-10-07-39-c606e1e7" border="0"></a>
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption"> May 2nd.</p>
+        </div>
+
+                <div class="photo-card">
+            <a href="https://ibb.co/7x9tTNkp"><img src="https://i.ibb.co/Y4rBKT0d/Whats-App-Image-2025-10-23-at-23-40-07-790d017a.jpg" alt="Whats-App-Image-2025-10-23-at-23-40-07-790d017a" border="0"></a>
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption"> May 5th.</p>
+        </div>
+
+                <div class="photo-card">
+            <a href="https://ibb.co/kgXV5Cgc"><img src="https://i.ibb.co/PZgsFHZC/Whats-App-Image-2025-10-25-at-10-05-46-6c6376f9.jpg" alt="Whats-App-Image-2025-10-25-at-10-05-46-6c6376f9" border="0"></a>
+
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption"> May 9th.</p>
+        </div>
+
+
+        <div class="photo-card">
+            <a href="https://ibb.co/cK5c4f1h"><img src="https://i.ibb.co/LDwzVj8d/Whats-App-Image-2025-10-24-at-10-03-41-2b9faf58.jpg" alt="Whats-App-Image-2025-10-24-at-10-03-41-2b9faf58" border="0"></a>
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption"> May 15th.</p>
+        </div>
+
+        
+        <div class="photo-card">
+            <a href="https://ibb.co/7xRzGHvd"><img src="https://i.ibb.co/20s6jwq1/Whats-App-Image-2025-10-24-at-10-03-56-743e91b5.jpg" alt="Whats-App-Image-2025-10-24-at-10-03-56-743e91b5" border="0"></a>
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption"> May 16th.</p>
+        </div>
+
+                <div class="photo-card">
+            <a href="https://ibb.co/PZq4ZYTw"><img src="https://i.ibb.co/sv8QvP5y/Whats-App-Image-2025-10-24-at-10-03-55-be2176a1.jpg" alt="Whats-App-Image-2025-10-24-at-10-03-55-be2176a1" border="0"></a>
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption"> May 17th.</p>
+        </div>
+
+                <div class="photo-card">
+            <a href="https://ibb.co/YFSN283x"><img src="https://i.ibb.co/nNywrfbF/Whats-App-Image-2025-10-24-at-10-03-56-c4f58722.jpg" alt="Whats-App-Image-2025-10-24-at-10-03-56-c4f58722" border="0"></a>
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption"> May 22nd.</p>
+        </div>
+
+        <div class="photo-card">
+            <a href="https://ibb.co/dwNv7jt3"><img src="https://i.ibb.co/v6NWDVhr/Whats-App-Image-2025-10-24-at-10-03-50-e0e55b16.jpg" alt="Whats-App-Image-2025-10-24-at-10-03-50-e0e55b16" border="0"></a>
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption"> May 23rd.</p>
+        </div>
+
+                <div class="photo-card">
+            <a href="https://ibb.co/M5P3r9yn"><img src="https://i.ibb.co/NnWH57gx/Whats-App-Image-2025-10-24-at-10-03-51-07da3124.jpg" alt="Whats-App-Image-2025-10-24-at-10-03-51-07da3124" border="0"></a>
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption"> May 23rd.</p>
+        </div>
+
+        <div class="photo-card">
+            <a href="https://ibb.co/hRkdK6NQ"><img src="https://i.ibb.co/JRNpz1T6/Whats-App-Image-2025-10-23-at-23-40-06-1331467f.jpg" alt="Whats-App-Image-2025-10-23-at-23-40-06-1331467f" border="0"></a>
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption">May 27th</p>
+        </div>
+
+        <div class="photo-card">
+            <a href="https://ibb.co/wNRwJd0g"><img src="https://i.ibb.co/ynXYhNfP/Whats-App-Image-2025-10-23-at-23-40-06-2c6695c3.jpg" alt="Whats-App-Image-2025-10-23-at-23-40-06-2c6695c3" border="0"></a>
+
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption">May 30th</p>
+        </div>
+
+                <div class="photo-card">
+            <a href="https://ibb.co/sdc69Pxf"><img src="https://i.ibb.co/LXBJdPjF/Whats-App-Image-2025-10-24-at-10-03-56-78ac875f.jpg" alt="Whats-App-Image-2025-10-24-at-10-03-56-78ac875f" border="0"></a>
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption">June 3rd</p>
+        </div>
+
+                        <div class="photo-card">
+            <a href="https://ibb.co/9H1Q9Qbw"><img src="https://i.ibb.co/7tZsJsng/Whats-App-Image-2025-10-24-at-10-03-57-2a30876d.jpg" alt="Whats-App-Image-2025-10-24-at-10-03-57-2a30876d" border="0"></a>
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption">June 12th</p>
+        </div>
+
+                <div class="photo-card">
+            <a href="https://ibb.co/W42bPNwL"><img src="https://i.ibb.co/RkDxBGmq/Whats-App-Image-2025-10-23-at-23-40-06-3c408b22.jpg" alt="Whats-App-Image-2025-10-23-at-23-40-06-3c408b22" border="0"></a>
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption">June 21st</p>
+        </div>
+
+                <div class="photo-card">
+            <a href="https://ibb.co/YFD6YtvX"><img src="https://i.ibb.co/Mx8bWRqf/Whats-App-Image-2025-10-25-at-10-22-15-0c916794.jpg" alt="Whats-App-Image-2025-10-25-at-10-22-15-0c916794" border="0"></a>
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption">July 5th</p>
+        </div>
+
+                        <div class="photo-card">
+            <a href="https://ibb.co/7tPrkKTH"><img src="https://i.ibb.co/GQyCHR1X/Whats-App-Image-2025-10-25-at-10-22-40-0d9d53e8.jpg" alt="Whats-App-Image-2025-10-25-at-10-22-40-0d9d53e8" border="0"></a>
+
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption">July 9th</p>
+        </div>
+
+        <div class="photo-card">
+            <a href="https://ibb.co/wrxGyYvV"><img src="https://i.ibb.co/mFMZJSxk/Whats-App-Image-2025-10-24-at-10-03-57-5543b58b.jpg" alt="Whats-App-Image-2025-10-24-at-10-03-57-5543b58b" border="0"></a>
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption">July 14th</p>
+        </div>
+
+                    <div class="photo-card">
+            <a href="https://ibb.co/nM58YQMv"><img src="https://i.ibb.co/GQb38CQL/Whats-App-Image-2025-10-25-at-10-00-31-1600b0d7.jpg" alt="Whats-App-Image-2025-10-25-at-10-00-31-1600b0d7" border="0"></a>
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption">July 19th</p>
+        </div>
+
+                            <div class="photo-card">
+            <a href="https://ibb.co/8nnKZ687"><img src="https://i.ibb.co/355rZBhC/Whats-App-Image-2025-10-28-at-11-05-11-6e8238e0.jpg" alt="Whats-App-Image-2025-10-28-at-11-05-11-6e8238e0" border="0"></a>
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption">July 25th</p>
+        </div>
+
+                                    <div class="photo-card">
+            <a href="https://ibb.co/v664X7c2"><img src="https://i.ibb.co/Zppz2nfy/Whats-App-Image-2025-10-28-at-11-05-19-8051ad71.jpg" alt="Whats-App-Image-2025-10-28-at-11-05-19-8051ad71" border="0"></a>
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption">July 28th</p>
+        </div>
+
+                <div class="photo-card">
+            <a href="https://ibb.co/b5fBN0BR"><img src="https://i.ibb.co/4RQT4qTg/Whats-App-Image-2025-10-24-at-10-03-58-5ddfd2c9.jpg" alt="Whats-App-Image-2025-10-24-at-10-03-58-5ddfd2c9" border="0"></a>
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption">August 14th</p>
+        </div>
+
+                        <div class="photo-card">
+            <a href="https://ibb.co/bgSKh0qP"><img src="https://i.ibb.co/TBVgXfpk/Whats-App-Image-2025-10-24-at-10-03-58-537eec0b.jpg" alt="Whats-App-Image-2025-10-24-at-10-03-58-537eec0b" border="0"></a>
+
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption">August 22nd</p>
+        </div>
+
+                        <div class="photo-card">
+            <a href="https://ibb.co/ds88fWFW"><img src="https://i.ibb.co/rKDDQ7Y7/Whats-App-Image-2025-10-31-at-19-36-05-7079d336.jpg" alt="Whats-App-Image-2025-10-31-at-19-36-05-7079d336" border="0"></a>
+
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption">September 3rd</p>
+        </div>
+
+                                <div class="photo-card">
+            <a href="https://ibb.co/67gXJY5x"><img src="https://i.ibb.co/gLz4FyCp/Whats-App-Image-2025-10-31-at-19-42-28-ad365ba1.jpg" alt="Whats-App-Image-2025-10-31-at-19-42-28-ad365ba1" border="0"></a>
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption">September 5th</p>
+        </div>        
+
+                                <div class="photo-card">
+            <a href="https://ibb.co/Nd4RB6qC"><img src="https://i.ibb.co/v6t9nxWq/Whats-App-Image-2025-10-31-at-19-46-01-5d54c2a7.jpg" alt="Whats-App-Image-2025-10-31-at-19-46-01-5d54c2a7" border="0"></a>
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption">September 20th</p>
+        </div>        
+
+                                <div class="photo-card">
+            <a href="https://ibb.co/WWHfvnxv"><img src="https://i.ibb.co/PZrgGxmG/Whats-App-Image-2025-10-31-at-19-49-04-3cc0ef5f.jpg" alt="Whats-App-Image-2025-10-31-at-19-49-04-3cc0ef5f" border="0"></a>
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption">October 3rd</p>
+        </div>        
+
+                                    <div class="photo-card">
+            <a href="https://ibb.co/G4QdnkxK"><img src="https://i.ibb.co/gLZrmwj5/Whats-App-Image-2025-10-31-at-19-50-34-d665999f.jpg" alt="Whats-App-Image-2025-10-31-at-19-50-34-d665999f" border="0"></a>
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption">October 6th</p>
+        </div>        
+        
+                                    <div class="photo-card">
+            <a href="https://ibb.co/fTp0bw3"><img src="https://i.ibb.co/NGjYXB0/Whats-App-Image-2025-11-07-at-18-28-08-d458e606.jpg" alt="Whats-App-Image-2025-11-07-at-18-28-08-d458e606" border="0"></a>
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption">November 6th</p>
+        </div>        
+        </div>
+
+</body>
+</html>
